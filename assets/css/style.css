@@ -181,9 +181,9 @@
   box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
 }
 
-/* .gender-content input, .course input {
+.gender-content input, .course-option input {
   display: none;
-} */
+}
 
 .gender-contents {
   display: flex;
@@ -192,13 +192,14 @@
   margin-top: 5px;
 }
 
-.gendser-content span {
+.gender-content {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
+  margin-left: 10px;
 }
 
-.gender-content span::before {
+.gender-content::before {
   content: '';
   position: absolute;
   left: 0;
@@ -239,6 +240,7 @@
 
 .select-area > .input-area {
   margin-top: 0;
+  width: 100%;
 }
 
 .select-area::after {
@@ -270,12 +272,12 @@
   margin-top: 5px;
 }
 
-label .course-option-text {
+.course-option-text {
   position: relative;
   padding-left: 25px;
 }
 
-label .course-option-text::before {
+.course-option-text::before {
   content: '';
   position: absolute;
   left: 0;
@@ -299,7 +301,7 @@ label .course-option-text::before {
   border-bottom: 3px solid #01bfbd;
 }
 
-.input-area .remarks {
+.text-area {
   height: 100px;
 }
 
